@@ -29,7 +29,7 @@ db = SQLAlchemy(app)
 # initialize the app with the extension
 # db.init_app(app)
 ######################## Custom Decorator #################################
-
+#test
 
 def admin_only(function):
     @wraps(function)
